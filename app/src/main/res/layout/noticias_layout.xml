@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:scrollbarStyle="insideInset"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Noticias"
+            android:id="@+id/titulo_noticias"
+            android:paddingBottom="30dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:weightSum="2"
+                android:layout_marginRight="-10dp">
+
+                <ImageView
+                    android:layout_width="220dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/imagen_noticia6"
+                    android:src="@mipmap/lineas"
+                    android:padding="1dp"
+                    android:background="@drawable/imagen_noticias"
+                    android:layout_weight="0.50" />
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold"
+                    android:id="@+id/titulo_noticia6"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.66"
+                    android:maxHeight="130dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/texto_noticia2"
+                android:layout_gravity="left|center_horizontal"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leer Más"
+                android:id="@+id/leer_mas_noticia3"
+                android:background="@drawable/btn_leer"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_gravity="right" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:weightSum="2"
+                android:layout_marginRight="-10dp">
+
+                <ImageView
+                    android:layout_width="220dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/imagen_noticia4"
+                    android:src="@mipmap/lineas"
+                    android:padding="1dp"
+                    android:background="@drawable/imagen_noticias"
+                    android:layout_weight="0.50" />
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold"
+                    android:id="@+id/titulo_noticia4"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.66"
+                    android:maxHeight="130dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="masinmo noticia arrechisima deberian hacer mas noticias de estas y un monton de cosads addsaofj fwofnhs dsjbvdsv dsvjndsovdsvodsnvoj idohfosdhvosb dsovjbdsv sdvods vojds v"
+                android:id="@+id/texto_noticia5"
+                android:layout_gravity="left|center_horizontal"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leer Más"
+                android:id="@+id/leer_mas_noticia5"
+                android:background="@drawable/btn_inicio"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_gravity="right" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:weightSum="2"
+                android:layout_marginRight="-10dp">
+
+                <ImageView
+                    android:layout_width="220dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/imagen_noticia7"
+                    android:src="@mipmap/lineas"
+                    android:padding="1dp"
+                    android:background="@drawable/imagen_noticias"
+                    android:layout_weight="0.50" />
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold"
+                    android:id="@+id/titulo_noticia7"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.66"
+                    android:maxHeight="130dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="masinmo noticia arrechisima deberian hacer mas noticias de estas y un monton de cosads addsaofj fwofnhs dsjbvdsv dsvjndsovdsvodsnvoj idohfosdhvosb dsovjbdsv sdvods vojds v"
+                android:id="@+id/texto_noticia8"
+                android:layout_gravity="left|center_horizontal"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leer Más"
+                android:id="@+id/leer_mas_noticia8"
+                android:background="@drawable/btn_inicio"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_gravity="right" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:weightSum="2"
+                android:layout_marginRight="-10dp">
+
+                <ImageView
+                    android:layout_width="220dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/imagen_noticia"
+                    android:src="@mipmap/lineas"
+                    android:padding="1dp"
+                    android:background="@drawable/imagen_noticias"
+                    android:layout_weight="0.50" />
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold"
+                    android:id="@+id/titulo_noticia"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.66"
+                    android:maxHeight="130dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="masinmo noticia arrechisima deberian hacer mas noticias de estas y un monton de cosads addsaofj fwofnhs dsjbvdsv dsvjndsovdsvodsnvoj idohfosdhvosb dsovjbdsv sdvods vojds v"
+                android:id="@+id/texto_noticia"
+                android:layout_gravity="left|center_horizontal"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leer Más"
+                android:id="@+id/leer_mas_noticia"
+                android:background="@drawable/btn_inicio"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_gravity="right" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
